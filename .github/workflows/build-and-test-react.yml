@@ -29,5 +29,5 @@ jobs:
 
       - name: npm test 💪
         run: |
-          npm install
+          npm ci
           npm test
