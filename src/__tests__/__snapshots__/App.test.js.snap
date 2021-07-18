@@ -6,63 +6,329 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="App"
+        class="pg-app"
       >
-        <header
-          class="App-header"
+        <div
+          class="pg-board"
         >
-          <img
-            alt="logo"
-            class="App-logo"
-            src="sow_pig.svg"
-          />
-          <p>
-            Edit 
-            <code>
-              src/App.js
-            </code>
-             and save to reload.
-          </p>
-          <a
-            class="App-link"
-            href="https://reactjs.org"
-            rel="noopener noreferrer"
-            target="_blank"
+          <div
+            class="pg-player-panel active left"
           >
-            Pig Game
-          </a>
-        </header>
+            <div
+              class="player-name-container"
+            >
+              <div
+                class="player-name"
+              >
+                P1
+              </div>
+              <div
+                class="overall-score"
+              >
+                0
+              </div>
+            </div>
+            <div
+              class="current-score-container"
+            >
+              <div
+                class="current-score"
+              >
+                0
+              </div>
+            </div>
+          </div>
+          <div
+            class="pg-game-controls"
+          >
+            <div
+              class="reset-btn-container"
+            >
+              <button>
+                Reset Game
+              </button>
+            </div>
+            <div
+              class="die-container"
+            >
+              <div
+                class="pg-die"
+              >
+                <div
+                  class="row"
+                >
+                  <div
+                    class="cell"
+                    id="c1"
+                  >
+                     
+                  </div>
+                  <div
+                    class="cell"
+                    id="c2"
+                  >
+                     
+                  </div>
+                  <div
+                    class="cell"
+                    id="c3"
+                  >
+                     
+                  </div>
+                </div>
+                <div
+                  class="row"
+                >
+                  <div
+                    class="cell"
+                    id="c4"
+                  >
+                     
+                  </div>
+                  <div
+                    class="cell"
+                    id="c5"
+                  >
+                    🐽
+                  </div>
+                  <div
+                    class="cell"
+                    id="c6"
+                  >
+                     
+                  </div>
+                </div>
+                <div
+                  class="row"
+                >
+                  <div
+                    class="cell"
+                    id="c7"
+                  >
+                     
+                  </div>
+                  <div
+                    class="cell"
+                    id="c8"
+                  >
+                     
+                  </div>
+                  <div
+                    class="cell"
+                    id="c9"
+                  >
+                     
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="roll-btn-container"
+            >
+              <button>
+                Roll
+              </button>
+            </div>
+            <div
+              class="hold-btn-container"
+            >
+              <button>
+                Hold
+              </button>
+            </div>
+          </div>
+          <div
+            class="pg-player-panel right"
+          >
+            <div
+              class="player-name-container"
+            >
+              <div
+                class="player-name"
+              >
+                P2
+              </div>
+              <div
+                class="overall-score"
+              >
+                0
+              </div>
+            </div>
+            <div
+              class="current-score-container"
+            >
+              <div
+                class="current-score"
+              >
+                0
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="App"
+      class="pg-app"
     >
-      <header
-        class="App-header"
+      <div
+        class="pg-board"
       >
-        <img
-          alt="logo"
-          class="App-logo"
-          src="sow_pig.svg"
-        />
-        <p>
-          Edit 
-          <code>
-            src/App.js
-          </code>
-           and save to reload.
-        </p>
-        <a
-          class="App-link"
-          href="https://reactjs.org"
-          rel="noopener noreferrer"
-          target="_blank"
+        <div
+          class="pg-player-panel active left"
         >
-          Pig Game
-        </a>
-      </header>
+          <div
+            class="player-name-container"
+          >
+            <div
+              class="player-name"
+            >
+              P1
+            </div>
+            <div
+              class="overall-score"
+            >
+              0
+            </div>
+          </div>
+          <div
+            class="current-score-container"
+          >
+            <div
+              class="current-score"
+            >
+              0
+            </div>
+          </div>
+        </div>
+        <div
+          class="pg-game-controls"
+        >
+          <div
+            class="reset-btn-container"
+          >
+            <button>
+              Reset Game
+            </button>
+          </div>
+          <div
+            class="die-container"
+          >
+            <div
+              class="pg-die"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="cell"
+                  id="c1"
+                >
+                   
+                </div>
+                <div
+                  class="cell"
+                  id="c2"
+                >
+                   
+                </div>
+                <div
+                  class="cell"
+                  id="c3"
+                >
+                   
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="cell"
+                  id="c4"
+                >
+                   
+                </div>
+                <div
+                  class="cell"
+                  id="c5"
+                >
+                  🐽
+                </div>
+                <div
+                  class="cell"
+                  id="c6"
+                >
+                   
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="cell"
+                  id="c7"
+                >
+                   
+                </div>
+                <div
+                  class="cell"
+                  id="c8"
+                >
+                   
+                </div>
+                <div
+                  class="cell"
+                  id="c9"
+                >
+                   
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="roll-btn-container"
+          >
+            <button>
+              Roll
+            </button>
+          </div>
+          <div
+            class="hold-btn-container"
+          >
+            <button>
+              Hold
+            </button>
+          </div>
+        </div>
+        <div
+          class="pg-player-panel right"
+        >
+          <div
+            class="player-name-container"
+          >
+            <div
+              class="player-name"
+            >
+              P2
+            </div>
+            <div
+              class="overall-score"
+            >
+              0
+            </div>
+          </div>
+          <div
+            class="current-score-container"
+          >
+            <div
+              class="current-score"
+            >
+              0
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>,
   "debug": [Function],
