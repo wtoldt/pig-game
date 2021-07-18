@@ -1,15 +1,17 @@
 import { render } from '@testing-library/react';
-import App from '../App';
+import Board from '../Board';
 
 const defaultProps = {};
 
-function getWrapper(props={}) {
+function getWrapper(props={}, children = 'foo') {
   return render(
-    <App {...defaultProps} {...props} />
+    <Board {...defaultProps} {...props}>
+      {children}
+    </Board>
   );
 }
 
-describe('App Component', () => {
+describe('Board Component', () => {
 
   describe('Snapshot testing', () => {
     it('Default snapshot', () => {

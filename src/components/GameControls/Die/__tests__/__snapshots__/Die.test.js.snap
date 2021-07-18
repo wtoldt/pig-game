@@ -1,0 +1,526 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Die Component Snapshot testing 1 snapshot test 1`] = `
+<div>
+  <div
+    class="pg-die"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c1"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c2"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c3"
+      >
+         
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c4"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c5"
+      >
+        🐽
+      </div>
+      <div
+        class="cell"
+        id="c6"
+      >
+         
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c7"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c8"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c9"
+      >
+         
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Die Component Snapshot testing 2 snapshot test 1`] = `
+<div>
+  <div
+    class="pg-die"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c1"
+      >
+        🔴
+      </div>
+      <div
+        class="cell"
+        id="c2"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c3"
+      >
+         
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c4"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c5"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c6"
+      >
+         
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c7"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c8"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c9"
+      >
+        🔴
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Die Component Snapshot testing 3 snapshot test 1`] = `
+<div>
+  <div
+    class="pg-die"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c1"
+      >
+        🔴
+      </div>
+      <div
+        class="cell"
+        id="c2"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c3"
+      >
+         
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c4"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c5"
+      >
+        🔴
+      </div>
+      <div
+        class="cell"
+        id="c6"
+      >
+         
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c7"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c8"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c9"
+      >
+        🔴
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Die Component Snapshot testing 4 snapshot test 1`] = `
+<div>
+  <div
+    class="pg-die"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c1"
+      >
+        🔴
+      </div>
+      <div
+        class="cell"
+        id="c2"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c3"
+      >
+        🔴
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c4"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c5"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c6"
+      >
+         
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c7"
+      >
+        🔴
+      </div>
+      <div
+        class="cell"
+        id="c8"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c9"
+      >
+        🔴
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Die Component Snapshot testing 5 snapshot test 1`] = `
+<div>
+  <div
+    class="pg-die"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c1"
+      >
+        🔴
+      </div>
+      <div
+        class="cell"
+        id="c2"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c3"
+      >
+        🔴
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c4"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c5"
+      >
+        🔴
+      </div>
+      <div
+        class="cell"
+        id="c6"
+      >
+         
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c7"
+      >
+        🔴
+      </div>
+      <div
+        class="cell"
+        id="c8"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c9"
+      >
+        🔴
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Die Component Snapshot testing 6 snapshot test 1`] = `
+<div>
+  <div
+    class="pg-die"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c1"
+      >
+        🔴
+      </div>
+      <div
+        class="cell"
+        id="c2"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c3"
+      >
+        🔴
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c4"
+      >
+        🔴
+      </div>
+      <div
+        class="cell"
+        id="c5"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c6"
+      >
+        🔴
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c7"
+      >
+        🔴
+      </div>
+      <div
+        class="cell"
+        id="c8"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c9"
+      >
+        🔴
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Die Component Snapshot testing Default snapshot 1`] = `
+<div>
+  <div
+    class="pg-die"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c1"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c2"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c3"
+      >
+         
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c4"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c5"
+      >
+        🐽
+      </div>
+      <div
+        class="cell"
+        id="c6"
+      >
+         
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell"
+        id="c7"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c8"
+      >
+         
+      </div>
+      <div
+        class="cell"
+        id="c9"
+      >
+         
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerPanel Component Snapshot testing Default snapshot 1`] = `
+<div>
+  <div
+    class="pg-player-panel"
+  >
+    <div
+      class="player-name-container"
+    >
+      <div
+        class="player-name"
+      >
+        P9
+      </div>
+      <div
+        class="overall-score"
+      />
+    </div>
+    <div
+      class="current-score-container"
+    >
+      <div
+        class="current-score"
+      />
+    </div>
+  </div>
+</div>
+`;

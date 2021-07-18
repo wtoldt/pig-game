@@ -1,0 +1,64 @@
+@import '../../styles/consts.scss';
+
+.pg-player-panel {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+
+  &.active {
+    background-color: lavenderblush;
+    .player-name-container .player-name {
+      color: rosybrown;
+    }
+  }
+
+  &.left {
+    border-top-left-radius: $big-panel-br;
+    border-bottom-left-radius: $big-panel-br;
+  }
+
+  &.right {
+    border-top-right-radius: $big-panel-br;
+    border-bottom-right-radius: $big-panel-br;
+  }
+
+  .player-name, .overall-score, .current-score {
+    width: 75px;
+  }
+
+  .player-name-container {
+    .player-name {
+      font-size: 60px;
+      font-weight: 800;
+      text-align: center;
+      background-color: black;
+      color: gray;
+      padding-top: 30px;
+    }
+    .overall-score {
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      background-color: darkgray;
+      color: black;
+    }
+  }
+
+  .current-score-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+
+    .current-score {
+      font-size: 16px;
+      font-weight: 400;
+      text-align: center;
+      color: black;
+      border: 1px solid black;
+    }
+  }
+
+}

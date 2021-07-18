@@ -1,0 +1,28 @@
+@import '../../../styles/consts.scss';
+
+.pg-die {
+  height: 50px;
+  width: 50px;
+  background-color: ivory;
+  border: 3px solid black;
+  border-radius: $big-panel-br;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .cell {
+      flex: 1 1;
+      color: red;
+      font-family: monospace;
+      height: 17px;
+      width: 17px
+    }
+  }
+}
