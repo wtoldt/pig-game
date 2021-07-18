@@ -1,15 +1,22 @@
 import { render } from '@testing-library/react';
-import App from '../App';
+import PlayerPanel from '../PlayerPanel';
 
-const defaultProps = {};
+const defaultProps = {
+  player: {
+    name: 'P9',
+    active: false,
+    left: true,
+    right: false
+  }
+};
 
 function getWrapper(props={}) {
   return render(
-    <App {...defaultProps} {...props} />
+    <PlayerPanel {...defaultProps} {...props} />
   );
 }
 
-describe('App Component', () => {
+describe('PlayerPanel Component', () => {
 
   describe('Snapshot testing', () => {
     it('Default snapshot', () => {

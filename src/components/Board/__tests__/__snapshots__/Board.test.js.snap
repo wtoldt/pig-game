@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board Component Snapshot testing Default snapshot 1`] = `
+<div>
+  <div
+    class="pg-board"
+  >
+    foo
+  </div>
+</div>
+`;

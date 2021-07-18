@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameControls Component Snapshot testing Default snapshot 1`] = `
+<div>
+  <div
+    class="pg-game-controls"
+  >
+    <div
+      class="reset-btn-container"
+    >
+      <button>
+        Reset Game
+      </button>
+    </div>
+    <div
+      class="die-container"
+    >
+      <div
+        class="pg-die"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="cell"
+            id="c1"
+          >
+             
+          </div>
+          <div
+            class="cell"
+            id="c2"
+          >
+             
+          </div>
+          <div
+            class="cell"
+            id="c3"
+          >
+             
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="cell"
+            id="c4"
+          >
+             
+          </div>
+          <div
+            class="cell"
+            id="c5"
+          >
+            🐽
+          </div>
+          <div
+            class="cell"
+            id="c6"
+          >
+             
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="cell"
+            id="c7"
+          >
+             
+          </div>
+          <div
+            class="cell"
+            id="c8"
+          >
+             
+          </div>
+          <div
+            class="cell"
+            id="c9"
+          >
+             
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="roll-btn-container"
+    >
+      <button>
+        Roll
+      </button>
+    </div>
+    <div
+      class="hold-btn-container"
+    >
+      <button>
+        Hold
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`GameControls Component Snapshot testing Disabled snapshot 1`] = `
+<div>
+  <div
+    class="pg-game-controls"
+  >
+    <div
+      class="reset-btn-container"
+    >
+      <button>
+        Reset Game
+      </button>
+    </div>
+    <div
+      class="die-container"
+    >
+      <div
+        class="pg-die"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="cell"
+            id="c1"
+          >
+             
+          </div>
+          <div
+            class="cell"
+            id="c2"
+          >
+             
+          </div>
+          <div
+            class="cell"
+            id="c3"
+          >
+             
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="cell"
+            id="c4"
+          >
+             
+          </div>
+          <div
+            class="cell"
+            id="c5"
+          >
+            🐽
+          </div>
+          <div
+            class="cell"
+            id="c6"
+          >
+             
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="cell"
+            id="c7"
+          >
+             
+          </div>
+          <div
+            class="cell"
+            id="c8"
+          >
+             
+          </div>
+          <div
+            class="cell"
+            id="c9"
+          >
+             
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="roll-btn-container"
+    >
+      <button
+        disabled=""
+      >
+        Roll
+      </button>
+    </div>
+    <div
+      class="hold-btn-container"
+    >
+      <button
+        disabled=""
+      >
+        Hold
+      </button>
+    </div>
+  </div>
+</div>
+`;
