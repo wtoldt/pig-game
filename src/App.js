@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 import Board from './components/Board/Board';
 import PlayerPanel from './components/PlayerPanel/PlayerPanel';
 import GameControls from './components/GameControls/GameControls';
-import { INITIAL_STATE, WIN_THRESHOLD, LOSER_NUMBER } from './App.consts';
+import { INITIAL_STATE, LOSER_NUMBER } from './App.consts';
+import {
+  act, rollDice, zeroCurrentScore, toggleCurrentPlayer,
+  updateCurrentScore, checkForWin, announceWinner, rollCurrentIntoOverviewScore
+} from './App.gameActions';
 
 import './App.scss';
 
@@ -25,52 +29,31 @@ export default class App extends Component {
   }
 
   handleOnRoll() {
-    const { p1, p2, currentPlayerId } = this.state;
-    const currentPlayer = this.getCurrentPlayer();
-
-    const dieValue = Math.floor(Math.random() * 6) + 1;
-    if (dieValue === LOSER_NUMBER) {
-      //the player loses their current score, and next player takes a turn
-      currentPlayer.currentScore = 0;
+    const state = rollDice({...this.state});
+    if (state.dieValue === LOSER_NUMBER) {
       this.setState({
-        dieValue,
-        p1: currentPlayerId === 'p1' ? currentPlayer : p1,
-        p2: currentPlayerId === 'p2' ? currentPlayer : p2,
-        currentPlayerId: currentPlayerId === 'p1' ? 'p2' : 'p1'
+        ...act(state, [
+          zeroCurrentScore,
+          toggleCurrentPlayer
+        ])
       });
     } else {
-      currentPlayer.currentScore += dieValue;
-      const total = currentPlayer.currentScore + currentPlayer.overallScore;
-      if (total >= WIN_THRESHOLD) {
-        //player has won, game is over!
-        this.setState({
-          winner: currentPlayer,
-          p1: currentPlayerId === 'p1' ? currentPlayer : p1,
-          p2: currentPlayerId === 'p2' ? currentPlayer : p2,
-          dieValue
-        });
-        alert(`${currentPlayer.name} has won with total score of ${total}! (${WIN_THRESHOLD} to win)`);
-      } else {
-        this.setState({
-          p1: currentPlayerId === 'p1' ? currentPlayer : p1,
-          p2: currentPlayerId === 'p2' ? currentPlayer : p2,
-          dieValue
-        });
-      }
+      this.setState({
+        ...act(state, [
+          updateCurrentScore,
+          checkForWin,
+          announceWinner
+        ])
+      });
     }
   }
 
   handleOnHold() {
-    const { p1, p2, currentPlayerId } = this.state;
-    const currentPlayer = this.getCurrentPlayer();
-
-    //add currentScore to overallScore and change currentPlayer
-    currentPlayer.overallScore += currentPlayer.currentScore;
-    currentPlayer.currentScore = 0;
     this.setState({
-      p1: currentPlayerId === 'p1' ? currentPlayer : p1,
-      p2: currentPlayerId === 'p2' ? currentPlayer : p2,
-      currentPlayerId: currentPlayerId === 'p1' ? 'p2' : 'p1'
+      ...act(this.state, [
+        rollCurrentIntoOverviewScore,
+        toggleCurrentPlayer
+      ])
     });
   }
 
