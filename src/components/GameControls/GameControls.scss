@@ -1,0 +1,15 @@
+@import '../../styles/consts.scss';
+
+.pg-game-controls {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  background-color: mistyrose;
+  align-items: center;
+
+  .die-container {
+    flex: 4;
+    display: flex;
+    align-items: center;
+  }
+}
