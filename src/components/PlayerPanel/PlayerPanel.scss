@@ -6,10 +6,11 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
 
   &.active {
     background-color: lavenderblush;
-    .player-name {
+    .player-name-container .player-name {
       color: rosybrown;
     }
   }
@@ -28,29 +29,36 @@
     width: 75px;
   }
 
-  .player-name {
-    font-size: 60px;
-    font-weight: 800;
-    text-align: center;
-    background-color: black;
-    color: gray;
-    padding-top: 30px;
+  .player-name-container {
+    .player-name {
+      font-size: 60px;
+      font-weight: 800;
+      text-align: center;
+      background-color: black;
+      color: gray;
+      padding-top: 30px;
+    }
+    .overall-score {
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      background-color: darkgray;
+      color: black;
+    }
   }
 
-  .overall-score {
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-    background-color: darkgray;
-    color: black;
-  }
+  .current-score-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
 
-  .current-score {
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    color: black;
-    border: 1px solid black;
+    .current-score {
+      font-size: 16px;
+      font-weight: 400;
+      text-align: center;
+      color: black;
+      border: 1px solid black;
+    }
   }
 
 }

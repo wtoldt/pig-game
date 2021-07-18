@@ -24,9 +24,13 @@ export default class PlayerPanel extends Component {
     const classnames = classNames('pg-player-panel', { active, left, right });
     return (
       <div className={classnames}>
-        <div className="player-name">{ name }</div>
-        <div className="overall-score">{ overallScore }</div>
-        <div className="current-score">{ currentScore }</div>
+        <div className="player-name-container">
+          <div className="player-name">{ name }</div>
+          <div className="overall-score">{ overallScore }</div>
+        </div>
+        <div className="current-score-container">
+          <div className="current-score">{ currentScore }</div>
+        </div>
       </div>
     );
   }
