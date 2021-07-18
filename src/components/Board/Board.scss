@@ -1,0 +1,9 @@
+@import '../../styles/consts.scss';
+
+.pg-board {
+  display: flex;
+  height: 500px;
+  width: 1000px;
+  border: solid 2px black;
+  border-radius: $big-panel-br;
+}
