@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/pig-game/static/css/main.e34247b1.chunk.css",
-    "main.js": "/pig-game/static/js/main.32d9c380.chunk.js",
-    "main.js.map": "/pig-game/static/js/main.32d9c380.chunk.js.map",
-    "runtime-main.js": "/pig-game/static/js/runtime-main.c249798e.js",
-    "runtime-main.js.map": "/pig-game/static/js/runtime-main.c249798e.js.map",
-    "static/js/2.7a450714.chunk.js": "/pig-game/static/js/2.7a450714.chunk.js",
-    "static/js/2.7a450714.chunk.js.map": "/pig-game/static/js/2.7a450714.chunk.js.map",
-    "static/js/3.cf44e17e.chunk.js": "/pig-game/static/js/3.cf44e17e.chunk.js",
-    "static/js/3.cf44e17e.chunk.js.map": "/pig-game/static/js/3.cf44e17e.chunk.js.map",
+    "main.css": "/pig-game/static/css/main.d35036e2.chunk.css",
+    "main.js": "/pig-game/static/js/main.7d86d33a.chunk.js",
+    "main.js.map": "/pig-game/static/js/main.7d86d33a.chunk.js.map",
+    "runtime-main.js": "/pig-game/static/js/runtime-main.6aabe46e.js",
+    "runtime-main.js.map": "/pig-game/static/js/runtime-main.6aabe46e.js.map",
+    "static/js/2.a7db1c3d.chunk.js": "/pig-game/static/js/2.a7db1c3d.chunk.js",
+    "static/js/2.a7db1c3d.chunk.js.map": "/pig-game/static/js/2.a7db1c3d.chunk.js.map",
+    "static/js/3.86a09f4a.chunk.js": "/pig-game/static/js/3.86a09f4a.chunk.js",
+    "static/js/3.86a09f4a.chunk.js.map": "/pig-game/static/js/3.86a09f4a.chunk.js.map",
     "index.html": "/pig-game/index.html",
-    "static/css/main.e34247b1.chunk.css.map": "/pig-game/static/css/main.e34247b1.chunk.css.map",
-    "static/js/2.7a450714.chunk.js.LICENSE.txt": "/pig-game/static/js/2.7a450714.chunk.js.LICENSE.txt",
-    "static/media/sow_pig.df8f8057.svg": "/pig-game/static/media/sow_pig.df8f8057.svg"
+    "static/css/main.d35036e2.chunk.css.map": "/pig-game/static/css/main.d35036e2.chunk.css.map",
+    "static/js/2.a7db1c3d.chunk.js.LICENSE.txt": "/pig-game/static/js/2.a7db1c3d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c249798e.js",
-    "static/js/2.7a450714.chunk.js",
-    "static/css/main.e34247b1.chunk.css",
-    "static/js/main.32d9c380.chunk.js"
+    "static/js/runtime-main.6aabe46e.js",
+    "static/js/2.a7db1c3d.chunk.js",
+    "static/css/main.d35036e2.chunk.css",
+    "static/js/main.7d86d33a.chunk.js"
   ]
 }
