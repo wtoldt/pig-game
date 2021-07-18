@@ -63,7 +63,7 @@ export default class App extends Component {
       <div className="pg-app">
         <Board>
           <PlayerPanel player={p1} active={currentPlayerId === 'p1'} left />
-          <GameControls dieValue={dieValue} disabled={winner}
+          <GameControls dieValue={dieValue} disabled={Boolean(winner)}
             onGameReset={this.handleOnGameReset.bind(this)}
             onRoll={this.handleOnRoll.bind(this)}
             onHold={this.handleOnHold.bind(this)}
